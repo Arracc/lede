@@ -136,7 +136,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-frpc=y
           # CONFIG_PACKAGE_luci-app-mtwifi is not set
-          CONFIG_PACKAGE_luci-app-qbittorrent=y
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
@@ -154,7 +153,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-webadmin is not set
           CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-sfe-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-transmission-zh-cn=y
           CONFIG_PACKAGE_luci-theme-argon=y
