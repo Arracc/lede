@@ -134,12 +134,14 @@ jobs:
           CONFIG_PACKAGE_libzstd=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
+          # CONFIG_PACKAGE_luci-app-arpbind is not set
+          # CONFIG_PACKAGE_luci-app-filetransfer is not set
           CONFIG_PACKAGE_luci-app-frpc=y
           # CONFIG_PACKAGE_luci-app-mtwifi is not set
+          # CONFIG_PACKAGE_luci-app-ramfree is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-          CONFIG_PACKAGE_luci-app-sfe=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
@@ -153,7 +155,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-webadmin is not set
           CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-sfe-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-transmission-zh-cn=y
           CONFIG_PACKAGE_luci-theme-argon_new=y
           CONFIG_PACKAGE_luci-theme-atmaterial=y
@@ -219,6 +220,7 @@ jobs:
           CONFIG_boost-runtime-shared=y
           CONFIG_boost-static-and-shared-libs=y
           CONFIG_boost-variant-release=y
+          CONFIG_PACKAGE_luci-lib-fs=y
           CONFIG_PACKAGE_vlmcsd=y
           CONFIG_PACKAGE_vsftpd-alt=y
           CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
